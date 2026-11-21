@@ -15,9 +15,9 @@ I build reliable, production-hardened automation systems that eliminate manual b
 
 | Repository | What It Does | Key Stack & Verification |
 | :--- | :--- | :--- |
-| **[fast-lead-automation](https://github.com/ApecSinlapachai/fast-lead-automation)** | Zero-SaaS-overhead lead intake pipeline (`Google Forms → Sheets Mini-CRM → LINE Flex Alerts + < 1 min Auto-Reply Email`) | `Google Apps Script` · `n8n` · `LINE Messaging API` · **73/73 Automated Offline Tests (`45/45` + `28/28`)** |
+| **[fast-lead-automation](https://github.com/ApecSinlapachai/fast-lead-automation)** | Zero-SaaS-overhead lead intake & multi-platform n8n v2.0 router (`X`, `FB Page/Group`, `LinkedIn`, `Google Forms` → `Sheets Mini-CRM` → `LINE Flex v2 + < 1 min Auto-Reply`) | `Google Apps Script` · `n8n v2.0 (MCP)` · `LINE Messaging API` · **85/85 Automated Offline Tests (`45` + `28` + `12`)** |
 | **[agentic-media-pipeline](https://github.com/ApecSinlapachai/agentic-media-pipeline)** | Zero-dependency Python + FFmpeg CLI for automated silence-cutting (`27m → 10m`) and `-16 LUFS` broadcast loudness normalization | `Python` · `FFmpeg 9.x` · `HTML/CSS` · `Chrome Headless` |
-| **[ai-automation-til](https://github.com/ApecSinlapachai/ai-automation-til)** | Public engineering log (`TIL #001–#019`) covering Personal AI OS context engineering, multi-agent workflows, security hardening, and PDPA-safe sync pipelines | `AI Systems` · `Context Engineering` · `PowerShell` · `Markdown` |
+| **[ai-automation-til](https://github.com/ApecSinlapachai/ai-automation-til)** | Public engineering log (`TIL #001–#023`) covering Personal AI OS context engineering, multi-agent workflows, n8n MCP testing, security hardening, and PDPA-safe sync pipelines | `AI Systems` · `Context Engineering` · `PowerShell` · `Markdown` |
 
 ---
 
