@@ -25,9 +25,10 @@ I build **reliable AI and automation systems** designed for real-world operation
 
 | Repository | Focus & Engineering Signal | Verified Stack & Metrics |
 | :--- | :--- | :--- |
+| **[enterprise-rag-ops-copilot](https://github.com/ApecSinlapachai/enterprise-rag-ops-copilot)** | **Thai–English Hybrid RAG & Guarded Ticket Triage:** pgvector + PyThaiNLP + pg_trgm RRF, 3-stage $0 anti-hallucination/injection guardrails, and Gemini-safe Pydantic v2 structured outputs | FastAPI · Next.js 15 · PostgreSQL 16 (pgvector) · Docker · **37/37 Pytest · 25/25 CI Golden Eval** |
 | **[fast-lead-automation](https://github.com/ApecSinlapachai/fast-lead-automation)** | **Deterministic Automation — Knowing When Not to Use AI:** Concurrency-safe webhook intake, regex normalization, deduplication, and LINE Flex alerts (`$0/mo` SaaS overhead) | `Google Apps Script` · `n8n v2.0` · `LINE Messaging API` · `Node.js` · **`85/85` Automated Offline Tests** (`45 + 28 + 12`) |
 | **[agentic-media-pipeline](https://github.com/ApecSinlapachai/agentic-media-pipeline)** | **CLI Media Automation Pipeline:** Deterministic 0-dependency Python + FFmpeg CLI for silence removal, contact-sheet inspection, and `-16 LUFS` loudness normalization | `Python 3.9+ (0-dep stdlib)` · `FFmpeg / FFprobe` · Verified run: **`27:00 → 10:37`**, **`-41.8 dB → -20.1 dB`** |
-| **[ai-automation-til](https://github.com/ApecSinlapachai/ai-automation-til)** | **Public Engineering Notes (`TIL #001–#025`):** English technical notes on AI systems, context engineering, workflow reliability, and PowerShell QA gates | `AI Systems` · `Context Engineering` · `Automation Ops` · `PDPA/Secret QA` |
+| **[ai-automation-til](https://github.com/ApecSinlapachai/ai-automation-til)** | **Public Engineering Notes (`TIL #001–#026`):** English technical notes on AI systems, context engineering, workflow reliability, and PowerShell QA gates | `AI Systems` · `Context Engineering` · `Automation Ops` · `PDPA/Secret QA` |
 
 > **Current Build Queue (Flagship AI Portfolio Roadmap):**  
 > 1. **Project #1 — `enterprise-rag-ops-copilot`** *(In Progress)*: Thai-English Hybrid RAG (`PostgreSQL 16 + pgvector` + Full-Text/BM25), `"Try Unanswerable Query"` Hallucination Refusal, `Pydantic` Ticket Triage, `20–30` case Golden Eval Set, `Docker` + `GitHub Actions CI`, and Next.js Vercel No-Login Live Demo.  
@@ -43,7 +44,7 @@ flowchart LR
     A[Deterministic Intake & CRM Ops] -->|Apps Script / n8n v2.0 / 85 Tests| B[Concurrency-Safe Lead Routing]
     C[CLI Media Automation] -->|Python 3.9+ stdlib / FFmpeg| D[Silence-Cut & -16 LUFS Video]
     E[Production AI Systems - Next] -->|FastAPI / pgvector / Eval Gates| F[Grounded RAG & Agent Ops]
-    G[Engineering Knowledge Base] -->|TIL #001-#025 / PDPA QA| H[ai-automation-til]
+    G[Engineering Knowledge Base] -->|TIL #001-#026 / PDPA QA| H[ai-automation-til]
 ```
 
 ---
