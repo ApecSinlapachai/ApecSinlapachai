@@ -61,9 +61,9 @@ Running live on `Vercel` (Same-Origin `/backend` Proxy) + `Render` + `Supabase P
 | **[apec-ai-portfolio](https://github.com/ApecSinlapachai/apec-ai-portfolio)** ([Live Hub](https://apec-ai-portfolio.vercel.app/) · [Ask AI](https://apec-ai-portfolio.vercel.app/chat)) | **Unified Portfolio Hub & Zero-Cold-Start AI Copilot:** File-driven Markdown SOT, 3-stage `$0` guardrails + TH/EN Gemini 3.x Copilot (`/chat`), and Same-Origin proxies for both live demos | `Next.js 15` · `TypeScript` · `Tailwind v4` · `@google/genai` · **`9/9` Vitest · `11/11` Routes** |
 | **[enterprise-rag-ops-copilot](https://github.com/ApecSinlapachai/enterprise-rag-ops-copilot)** ([Live Demo](https://apec-ai-portfolio.vercel.app/demos/rag-copilot)) | **Flagship #1 — Thai–English Hybrid RAG & Ticket Triage:** `pgvector` + `PyThaiNLP` + `pg_trgm` RRF, 3-stage `$0` anti-hallucination/injection guardrails, tiered Gemini 3.x routing, and Pydantic v2 structured outputs | `FastAPI` · `Next.js 15` · `PG16 pgvector` · `Docker` · **`47/47` Pytest · `25/25` Live & CI Golden Eval** |
 | **[production-ai-agent-ops](https://github.com/ApecSinlapachai/production-ai-agent-ops)** ([Live Demo](https://apec-ai-portfolio.vercel.app/demos/agent-ops)) | **Flagship #2 — State-Machine AI Operations Agent:** SQL-first `LangGraph` + PG16 `FOR UPDATE` HITL/DLQ, pre-LLM PDPA PII redaction, `Idempotency-Key`, `n8n` JSON workflows, and Same-Origin `/backend` proxy | `LangGraph` · `FastAPI` · `PG16` · `n8n` · `Next.js 15` · **`40/40` Pytest · `0.00` PDPA Leak · `62.78%` Cost Cut** |
-| **[fast-lead-automation](https://github.com/ApecSinlapachai/fast-lead-automation)** | **Deterministic Automation — Knowing When Not to Use AI:** Concurrency-safe webhook intake, regex normalization, deduplication, and LINE Flex alerts (`$0/mo` SaaS overhead) | `Google Apps Script` · `n8n v2.0` · `LINE Messaging API` · `Node.js` · **`85/85` Automated Offline Tests** (`45 + 28 + 12`) |
+| **[fast-lead-automation](https://github.com/ApecSinlapachai/fast-lead-automation)** | **Deterministic Automation — Knowing When Not to Use AI:** Concurrency-safe webhook intake, regex normalization, deduplication, and LINE Flex alerts (`$0/mo` SaaS overhead) | `Google Apps Script` · `n8n v2.0` · `LINE Messaging API` · `Node.js` · **`85/85` Automated Offline Tests** (`45 + 29 + 12`) |
 | **[agentic-media-pipeline](https://github.com/ApecSinlapachai/agentic-media-pipeline)** | **CLI Media Automation Pipeline:** Deterministic 0-dependency Python + FFmpeg CLI for silence removal, contact-sheet inspection, and `-16 LUFS` loudness normalization | `Python 3.9+ (0-dep stdlib)` · `FFmpeg / FFprobe` · Verified run: **`27:00 → 10:37`**, **`-41.8 dB → -20.1 dB`** |
-| **[ai-automation-til](https://github.com/ApecSinlapachai/ai-automation-til)** | **Public Engineering Notes (`TIL #001–#028`):** English technical notes on AI systems, context engineering, workflow reliability, and PowerShell QA gates | `AI Systems` · `Context Engineering` · `Automation Ops` · `PDPA/Secret QA` |
+| **[ai-automation-til](https://github.com/ApecSinlapachai/ai-automation-til)** | **Public Engineering Notes (`TIL #001–#029`):** English technical notes on AI systems, context engineering, workflow reliability, and PowerShell QA gates | `AI Systems` · `Context Engineering` · `Automation Ops` · `PDPA/Secret QA` |
 
 ---
 
@@ -74,7 +74,7 @@ flowchart LR
     A[Flagship #1: Hybrid RAG & Triage] -->|FastAPI / pgvector / PyThaiNLP / 25-Case Eval| B[Grounded TH-EN Copilot]
     C[Flagship #2: Stateful AI Agent Ops] -->|LangGraph / PG16 FOR UPDATE / PDPA / n8n| D[HITL & DLQ Control Plane - 62.78% Cost Cut]
     E[Deterministic Intake & CRM Ops] -->|Apps Script / n8n v2.0 / 85 Tests| F[Concurrency-Safe Lead Routing]
-    G[Engineering Knowledge Base] -->|TIL #001-#028 / PDPA QA| H[ai-automation-til]
+    G[Engineering Knowledge Base] -->|TIL #001-#029 / PDPA QA| H[ai-automation-til]
 ```
 
 ---
